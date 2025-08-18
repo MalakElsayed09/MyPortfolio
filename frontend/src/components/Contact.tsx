@@ -1,4 +1,4 @@
-import React from "react";
+import React, { JSX } from "react";
 import { Container, Card, Form, Button } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
@@ -46,17 +46,23 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={30} color="#1B263B" />
+              <span>
+                {FaGithub({ size: 30, color: "#1B263B" }) as JSX.Element}
+              </span>
             </a>
             <a
               href="https://www.linkedin.com/in/elsayedMal/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={30} color="#1B263B" />
+              <span>
+                {FaLinkedin({ size: 30, color: "#1B263B" }) as JSX.Element}
+              </span>
             </a>
             <a href="mailto:elsayedmalak93@gmail.com">
-              <FaEnvelope size={30} color="#1B263B" />
+              <span>
+                {FaEnvelope({ size: 30, color: "#1B263B" }) as JSX.Element}
+              </span>
             </a>
           </div>
         </Card>

@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +15,9 @@
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "bootstrap": "^5.3.7",
+    "react-bootstrap": "^2.10.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,10 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "bootstrap": "^5.3.7",
-    "react-bootstrap": "^2.10.10"
->>>>>>> 7ab8231 (update myportfolio)
   }
 }
