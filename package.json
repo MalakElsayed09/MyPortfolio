@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "react-bootstrap": "^2.10.10"
+>>>>>>> 7ab8231 (update myportfolio)
   }
 }
